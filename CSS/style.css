@@ -1,0 +1,491 @@
+html {
+  scroll-behavior: smooth;
+}
+:target {
+    scroll-margin-top: .8em;
+}
+body{
+    background-image: url(backgroundimage.jpg);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+#container{
+    align-items: center;
+}
+/* #1D1D2A */
+/* #052444 */
+#up{
+    background-image: linear-gradient(to right,black, #052444, #041424, black);
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+#image1{
+    animation: GoBackFadeIn 2s linear;
+}
+@keyframes GoBackFadeIn {
+    0% {
+        transform: translateX(190px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        opacity: 0
+      }
+
+      20% {
+        opacity: 0.2
+      }
+
+      40% {
+        opacity: 0.4
+      }
+
+      60% {
+        opacity: 0.6
+      }
+
+      100% {
+        opacity: 1
+      }
+}
+
+.subtitle{
+    animation: FadeIn 2.5s linear;
+}
+.title{
+    animation: FadeIn 2.5s linear;
+}
+@keyframes FadeIn {
+    0% {
+        opacity: 0
+      }
+
+      20% {
+        opacity: 0.2
+      }
+
+      40% {
+        opacity: 0.4
+      }
+
+      60% {
+        opacity: 0.6
+      }
+
+      100% {
+        opacity: 1
+      }
+}
+
+
+.title{
+    color:white;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.subtitle{
+    color:white;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.nav {
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+
+.nav a{
+    color: black;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-decoration: none;
+}
+
+
+#board{
+    width:1200px;
+    height: 230px;
+    position: relative;
+    top: 50px;
+    background-color: #052444;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+#cont_img1{
+    width:450px;
+    display: inline-block;
+    position: relative;
+    left: 6px;
+}
+
+#ph_1{
+    width: 45px;
+    position: relative;
+    top: 10px;
+    left: 180px;
+
+}
+
+#cont_img2{
+    width:450px;
+    display: inline-block;
+    position: relative;
+    left: 8px;
+
+}
+
+#ph_2{
+    width: 70px;
+    position: relative;
+    top: 10px;    
+    left: 170px;
+}
+
+#cont_img3{
+    width:445px;
+    float: right;
+
+}
+
+#ph_3{
+    width: 50px;
+    position: relative;
+    top: 16px;
+    left: 180px;
+}
+
+.nav_{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:50px;
+}
+
+.nav_:hover{
+    color: orange;
+
+}
+
+
+
+#services{
+    width:1200px;
+    height: 1500px;
+    position: relative;
+    top: 100px;
+    background-color: #052444;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 20px;
+
+}
+
+#project{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#project_img{
+    width: 1150px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+
+}
+
+.info_project{
+    width:900px;
+    margin: auto;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.link_contact{
+    color: orange;
+}
+
+#projectreuni_img{
+    width: 500px;
+    position: relative; 
+    top: 10px;
+    left: 350px; 
+}
+
+#contacts{
+    width:1200px;
+    height: 800px;
+    position: relative;
+    top: 150px;
+    background-color: #052444;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+#contact{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#info_{
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+    font-size: 16px;
+}
+
+#form{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.campo_nome{
+    border-radius: 5px;
+    padding: 5px;
+    font-style: oblique;
+}
+
+.campo_tel{
+    border-radius: 5px;
+    padding: 5px;
+    font-style: oblique;
+}
+
+.campo_email{
+    border-radius: 5px;
+    padding: 5px;
+    font-style: oblique;
+}
+
+.campo_assunto{
+    border-radius: 5px;
+    padding: 5px;
+    font-style: oblique;
+}
+
+.campo_ajuda{
+    border-radius: 5px;
+    padding: 5px;
+    font-style: oblique;
+
+}
+
+.campo_submit{
+    width:100px;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 390px;
+    font-style: oblique;
+}
+
+.campo_submit:hover{
+    background: gray
+}
+
+#container_adress{
+    width: 940px;
+    margin: auto;
+    padding-top: 35px;
+    padding-left: 55px;
+    background-color: #191970;
+    border-radius: 20px;
+    border: 2px groove white;
+}
+
+#adress{
+    width: 300px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+#id_endereco{
+    width: 50px;
+
+}
+
+#id_endereco{
+    width: 50px;
+    position: relative;
+    left: 120px;
+}
+#tel{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    bottom: 39px;
+    text-align: center;
+
+}
+#id_tel{
+    width: 60px;
+
+}
+
+#email{
+    width: 300px;
+
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 22px;
+
+}
+
+#id_email{
+    width: 70px;
+
+}
+
+.end_tel_email{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #bfafb2;
+    text-align: center;
+
+}
+
+#footer{
+    background-image: linear-gradient(to right, black,#052444, #041424, black);
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    top: 180px;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+#logo{
+    width: 400px;
+    height: 246px;
+    position: relative;
+    bottom: 60px;
+    right: 60px;
+    /* align-items: center; */
+    /* position: relative;
+    left: 100px; */
+    display: inline-block;
+}
+
+#slogan{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+
+}
+
+#footer_img{
+    width:100%;
+}
+
+
+#links{
+    width: 400px;
+    height: 246px;
+    position: relative;
+    top:20px;
+    align-items: center;
+    color: orange;
+    display:flex;
+}
+
+.link_ft{
+    text-decoration: none;
+    color: white;
+
+}
+
+.link_ft:hover{
+    color: orange;  
+
+}
+
+#link{
+    color: white;
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+    text-decoration: underline orange;
+}
+
+#contatos{
+    width: 400px;
+    height: 246px;
+    position: relative;
+    top:20px;
+    align-items: center;
+    color: orange;
+    display:flex;
+}
+
+#contato{
+    color: white;
+    position: relative;
+    bottom: 94px;
+    left: 110px;
+    text-decoration: underline orange;
+}
+
+.contato_ft{
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+#copyright{
+    width: 100%;
+    height: 18px;
+    background-color: black;
+    position: relative;
+    top: 145px;
+    text-align: center;
+}
+
+#bcao_cp{
+    color: white;
+    font-size: 15px;
+}
