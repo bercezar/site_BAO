@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+  }
+  :target {
+      scroll-margin-top: .8em;
+  }
+
+body{
+    background-image: url(backgroundimage.jpg);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+#container{
+    align-items: center;
+}
+
+#up{
+    background-image: linear-gradient(to right, black,#052444, #041424, black);
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+#image1{
+    animation: GoBackFadeIn 2s linear;
+}
+@keyframes GoBackFadeIn {
+    0% {
+        transform: translateX(190px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        opacity: 0
+      }
+
+      20% {
+        opacity: 0.2
+      }
+
+      40% {
+        opacity: 0.4
+      }
+
+      60% {
+        opacity: 0.6
+      }
+
+      100% {
+        opacity: 1
+      }
+}
+
+.subtitle{
+    animation: FadeIn 2.5s linear;
+}
+.title{
+    animation: FadeIn 2.5s linear;
+}
+@keyframes FadeIn {
+    0% {
+        opacity: 0
+      }
+
+      20% {
+        opacity: 0.2
+      }
+
+      40% {
+        opacity: 0.4
+      }
+
+      60% {
+        opacity: 0.6
+      }
+
+      100% {
+        opacity: 1
+      }
+}
+
+
+.title{
+    color:white;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.subtitle{
+    color:white;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.nav {
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.nav a{
+    color: black;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-decoration: none;
+
+}
+
+
+
+#container_2{
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    background-color: #052444;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#logo_{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#textAbout{
+    width:1100px;
+    margin: auto;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.text{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+#us{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.nm{
+    text-decoration: underline orange;
+}
+#footer{
+    background-image: linear-gradient(to right, black,#052444, #041424, black);
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    top: 60px;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+#logo{
+    width: 400px;
+    height: 246px;
+    position: relative;
+    bottom: 60px;
+    right: 60px;
+    /* align-items: center; */
+    /* position: relative;
+    left: 100px; */
+    display: inline-block;
+}
+
+#slogan{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+#footer_img{
+    width:100%;
+}
+
+
+#links{
+    width: 400px;
+    height: 246px;
+    position: relative;
+    top:20px;
+    align-items: center;
+    color: orange;
+    display:flex;
+}
+
+.link_ft{
+    text-decoration: none;
+    color: white;
+
+}
+
+.link_ft:hover{
+    color: orange;
+}
+
+#link{
+    color: white;
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+    text-decoration: underline orange;
+}
+
+#contatos{
+    width: 400px;
+    height: 246px;
+    position: relative;
+    top:20px;
+    align-items: center;
+    color: orange;
+    display:flex;
+}
+
+#contato{
+    color: white;
+    position: relative;
+    bottom: 94px;
+    left: 110px;
+    text-decoration: underline orange;
+}
+
+.contato_ft{
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+#copyright{
+    width: 100%;
+    height: 18px;
+    background-color: black;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+#bcao_cp{
+    color: white;
+    font-size: 15px;
+}
